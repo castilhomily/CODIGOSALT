@@ -1,0 +1,28 @@
+package Aula02;
+
+import java.util.Scanner;
+
+public class Aluno {
+    String nome;
+    int rm;
+    double nota1,nota2,media;
+
+    public void  leitura(){
+        Scanner le = new Scanner(System.in);
+        System.out.println("Nome: ");
+        this.nome = le.next();
+        System.out.println("RM: ");
+        this.rm = le.nextInt();
+        System.out.println("Nota1: ");
+        this.nota1 = le.nextDouble();
+        System.out.println("Nota2: ");
+        this.nota2 = le.nextDouble();
+        le.close();
+    }
+    public void calcularMedia(){this.media = (this.nota1 + this.nota2) / 2;}
+    public void mostrarAluno(){
+        System.out.println("Aluno: " + this.nome + "\t RM: " + this.rm);
+        System.out.println("Média: " + this.media);
+    }
+
+}

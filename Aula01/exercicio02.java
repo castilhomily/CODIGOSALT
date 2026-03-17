@@ -1,3 +1,5 @@
+package Aula01;
+
 import java.util.Scanner;
 public class exercicio02 {
     static final int N = 30;
