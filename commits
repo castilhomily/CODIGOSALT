@@ -1,0 +1,4 @@
+git init
+git remote add .
+git commit -m "finalizado"
+git push
