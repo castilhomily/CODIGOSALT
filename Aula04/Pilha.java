@@ -1,6 +1,6 @@
-package pilhas;
+package Aula04;
 
-public class PilhaInt {
+public class Pilha {
     final int N = 6;
     int dados[] = new int[N];
     int topo;

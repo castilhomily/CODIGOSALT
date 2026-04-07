@@ -1,10 +1,10 @@
-package teste;
+package Aula05;
 
-import pilhas.PilhaInt;
+import Aula04.Pilha;
 
 public class MainTeste {
     public static void main(String[] args) {
-        PilhaInt pilha = new PilhaInt();
+        Pilha pilha = new Pilha();
         pilha.init();
         pilha.push(11);
         pilha.push(22);
