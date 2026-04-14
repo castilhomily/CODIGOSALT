@@ -44,7 +44,7 @@ public class Processador {
                 case 3:
                     if (!fila.isEmpty()) {
                         System.out.println("Processos ainda em execução");
-                        System.out.println("Deseja fechar todos? (1- sim): ");
+                        System.out.println("Deseja fechar todos? (1- sim) ");
                         int resp = le.nextInt();
 
                         if (resp == 1) {
