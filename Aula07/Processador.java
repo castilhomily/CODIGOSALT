@@ -33,7 +33,7 @@ public class Processador {
                         int resp = le.nextInt();
 
                         if (resp == 1) {
-                            System.out.println("O processo " + pid + " concluído");
+                            System.out.println("O processo " + pid + " foi concluído");
                         } else {
                             fila.enqueue(pid);
                             System.out.println("O processo voltou para a fila!");
