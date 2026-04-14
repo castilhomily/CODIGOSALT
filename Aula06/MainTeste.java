@@ -2,7 +2,7 @@ package Aula06;
 
 public class MainTeste {
     public static void main(String[] args) {
-        Filas fila = new Filas();
+        FilaInt fila = new FilaInt();
         fila.init();
         //enqueue
         fila.enqueue (23);

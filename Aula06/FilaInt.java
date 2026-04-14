@@ -1,6 +1,6 @@
 package Aula06;
 
-public class Filas {
+public class FilaInt {
     final int N = 3;
     int dados [] = new int[N];
     int ini,fim,cont;
