@@ -4,7 +4,8 @@ public class Main {
     public static void main(String[] args) {
         NoLista lista = new NoLista();
         lista.dado = 1;
-      
+        //sucesor nao existe o atributo precisa receber null (não tem objeto)
+        // area de memoria 0 não pode ser accessada
         lista.prox = null;
 
         System.out.println("Lista: " + lista);
