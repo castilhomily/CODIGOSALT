@@ -16,6 +16,7 @@ public class Main {
         NoLista novo = new NoLista();
         novo.dado = 2;
         novo.prox = null;
+        lista.prox = novo;
 
         System.out.println("novo: " + novo);
         System.out.println("\t dado: " + lista.dado);
